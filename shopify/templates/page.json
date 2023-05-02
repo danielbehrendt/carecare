@@ -2,13 +2,97 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "4d2c61d1-e282-4163-aeb5-81d541baf476": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16548843290839__4d2c61d1-e282-4163-aeb5-81d541baf476-1667978125be7b45ec-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mission Statement",
+            "heading_size": "h0"
+          }
+        },
+        "template--16548843290839__4d2c61d1-e282-4163-aeb5-81d541baf476-1667978125be7b45ec-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Was ist ein Deal? Ein Deal ist eine Abmachung, eine<br\/>Hand drauf ohne Finger zu kreuzen. Und ein guter Deal ist, wenn beide Seiten dieser Abmachung gut dabei wegkommen. Genau das macht carecare. carecare ist Dein Dealmaker für Deine Gesundheit. Denn wenn Du Dich um Dich und deine Gesundheit kümmerst, kümmerst du Dich auch um die Gesundheit von Anderen. Ein guter Deal, denn Allen geht es damit besser.<\/p><p>Aber wir gehen noch ein Schritt weiter. Carecare möchte nicht nur Dein Dealmaker für deine Gesundheit sein- sondern auch helfen. Vor allem Menschen denen es besser gehen soll und für die Gesundheit ein schwer zu erreichendes Gut ist. In ausgewiesenen Produkten siehst Du, welchen Spendenbeitrag Carecare leistet, um Gesundheit oder Heilverbesserung zu schenken. Denn eins ist klar: Gemeinsam erreichen wir mehr- für uns selbst und Andere– und das macht glücklich. Und Glück ist erwiesenermaßen eine nicht zu unterschätzende Zutat für die eigene Gesundheit.<\/p><p>Carecare<\/p><p>For a better us.<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16548843290839__4d2c61d1-e282-4163-aeb5-81d541baf476-1667978125be7b45ec-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16548843290839__4d2c61d1-e282-4163-aeb5-81d541baf476-1667978125be7b45ec-0",
+        "template--16548843290839__4d2c61d1-e282-4163-aeb5-81d541baf476-1667978125be7b45ec-1",
+        "template--16548843290839__4d2c61d1-e282-4163-aeb5-81d541baf476-1667978125be7b45ec-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/family-g69f8c250b_1920.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a5c96177-ca3c-4bd5-99ee-b99fb53e369a": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16548843290839__a5c96177-ca3c-4bd5-99ee-b99fb53e369a-16679781250aadeec2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mission Statement",
+            "heading_size": "h0"
+          }
+        },
+        "template--16548843290839__a5c96177-ca3c-4bd5-99ee-b99fb53e369a-16679781250aadeec2-1": {
+          "type": "text",
+          "settings": {
+            "text": "Was ist ein Deal? Ein Deal ist eine Abmachung, eineHand drauf ohne Finger zu kreuzen. Und ein guter Deal ist, wenn beide Seiten dieser Abmachung gut dabei wegkommen. Genau das macht carecare. carecare ist Dein Dealmaker für Deine Gesundheit. Denn wenn Du Dich um Dich und deine Gesundheit kümmerst, kümmerst du Dich auch um die Gesundheit von Anderen. Ein guter Deal, denn Allen geht es damit besser.Aber wir gehen noch ein Schritt weiter. Carecare möchte nicht nur Dein Dealmaker für deine Gesundheit sein- sondern auch helfen. Vor allem Menschen denen es besser gehen soll und für die Gesundheit ein schwer zu erreichendes Gut ist. In ausgewiesenen Produkten siehst Du, welchen Spendenbeitrag Carecare leistet, um Gesundheit oder Heilverbesserung zu schenken. Denn eins ist klar: Gemeinsam erreichen wir mehr- für uns selbst und Andere– und das macht glücklich. Und Glück ist erwiesenermaßen eine nicht zu unterschätzende Zutat für die eigene Gesundheit. Carecare For a better us.",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16548843290839__a5c96177-ca3c-4bd5-99ee-b99fb53e369a-16679781250aadeec2-0",
+        "template--16548843290839__a5c96177-ca3c-4bd5-99ee-b99fb53e369a-16679781250aadeec2-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/family-g69f8c250b_1920.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "4d2c61d1-e282-4163-aeb5-81d541baf476",
+    "a5c96177-ca3c-4bd5-99ee-b99fb53e369a"
   ]
 }

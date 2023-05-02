@@ -1,210 +1,142 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
+    "shogun-home": {
+      "type": "shogun-home",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "cfc4be43-bab2-4002-8cb4-e8c4cd50ad78": {
+      "type": "tooltips",
+      "disabled": true,
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--16548843094231__cfc4be43-bab2-4002-8cb4-e8c4cd50ad78-1681206191a082b3ba-0": {
+          "type": "Tooltip",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "title": "100% Sicher",
+            "content": "Sicher Sicher Sicher",
+            "top": 23,
+            "left": 36
           }
         },
-        "text": {
-          "type": "text",
+        "7b7b3d23-fcd9-4f65-b45e-ad7a22664119": {
+          "type": "Tooltip",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "title": "Arztgespräch",
+            "content": "Bei Bedarf können Sie direkt mit einem Arzt digital sprechen.",
+            "top": 25,
+            "left": 72
+          }
+        },
+        "b3522c8e-c3a0-4707-91df-5a26c966cfe4": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "Server in Deutschland",
+            "content": "Europäische Server. Ihre Daten bleiben innerhalb von Europa",
+            "top": 56,
+            "left": 76
+          }
+        },
+        "ed50c925-5751-491d-8288-2e75b7d9fd95": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "100% Sicherheit",
+            "content": "100% Sicherheit Ihrer Daten!",
+            "top": 64,
+            "left": 42
+          }
+        },
+        "d4829162-99e5-4012-a45b-864935af1330": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "100% Sicherheit",
+            "content": "100% Sicherheit Ihrer Daten!",
+            "top": 49,
+            "left": 22
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "template--16548843094231__cfc4be43-bab2-4002-8cb4-e8c4cd50ad78-1681206191a082b3ba-0",
+        "7b7b3d23-fcd9-4f65-b45e-ad7a22664119",
+        "b3522c8e-c3a0-4707-91df-5a26c966cfe4",
+        "ed50c925-5751-491d-8288-2e75b7d9fd95",
+        "d4829162-99e5-4012-a45b-864935af1330"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/vorteile_47edb209-97cc-4a67-a47e-c83bff74046f.png",
+        "tooltip_color": "#ffffff",
+        "tooltip_background_color": "#121212",
+        "tooltip_focus_color": "#dd1d1d",
+        "breakpoint": "768"
+      }
+    },
+    "130cd684-c17b-4f05-8801-63c0df369525": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16548843094231__130cd684-c17b-4f05-8801-63c0df369525-1680181301502a6351-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MELDE DICH AN ZU UNSEREM NEWSLETTER",
+            "heading_size": "h2"
+          }
+        },
+        "template--16548843094231__130cd684-c17b-4f05-8801-63c0df369525-1680181301502a6351-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Verpasse nicht unsere neuesten Tests, News oder Lifestyle Tips.<\/p><p>Jetzt zum Newsletter anmelden!<\/p>"
+          }
+        },
+        "template--16548843094231__130cd684-c17b-4f05-8801-63c0df369525-1680181301502a6351-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16548843094231__130cd684-c17b-4f05-8801-63c0df369525-1680181301502a6351-0",
+        "template--16548843094231__130cd684-c17b-4f05-8801-63c0df369525-1680181301502a6351-1",
+        "template--16548843094231__130cd684-c17b-4f05-8801-63c0df369525-1680181301502a6351-2"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 52
       }
     },
-    "featured_collection": {
+    "6be22b51-ad33-4673-b0b5-845099a89dfc": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "title": "Featured collection",
         "heading_size": "h1",
         "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sale",
+        "products_to_show": 4,
+        "columns_desktop": 4,
         "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "shogun-home",
+    "cfc4be43-bab2-4002-8cb4-e8c4cd50ad78",
+    "130cd684-c17b-4f05-8801-63c0df369525",
+    "6be22b51-ad33-4673-b0b5-845099a89dfc"
   ]
 }
