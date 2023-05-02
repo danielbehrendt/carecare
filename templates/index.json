@@ -110,13 +110,14 @@
         "padding_bottom": 36
       }
     },
-    "a6880954-9083-41c2-acfa-864943d4323c": {
-      "type": "custom-liquid",
+    "872de92b-a180-4105-ab8b-ce4d47fd3186": {
+      "type": "page",
       "settings": {
-        "custom_liquid": "<nav aria-label=\"Progress\">\n  <ol role=\"list\" class=\"flex items-center\">\n    <li class=\"relative pr-8 sm:pr-20\">\n      <!-- Completed Step -->\n      <div class=\"absolute inset-0 flex items-center\" aria-hidden=\"true\">\n        <div class=\"h-0.5 w-full bg-indigo-600\"><\/div>\n      <\/div>\n      <a href=\"#\" class=\"relative flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600 hover:bg-indigo-900\">\n        <svg class=\"h-5 w-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\">\n          <path fill-rule=\"evenodd\" d=\"M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z\" clip-rule=\"evenodd\" \/>\n        <\/svg>\n        <span class=\"sr-only\">Step 1<\/span>\n      <\/a>\n    <\/li>\n    <li class=\"relative pr-8 sm:pr-20\">\n      <!-- Completed Step -->\n      <div class=\"absolute inset-0 flex items-center\" aria-hidden=\"true\">\n        <div class=\"h-0.5 w-full bg-indigo-600\"><\/div>\n      <\/div>\n      <a href=\"#\" class=\"relative flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600 hover:bg-indigo-900\">\n        <svg class=\"h-5 w-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\">\n          <path fill-rule=\"evenodd\" d=\"M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z\" clip-rule=\"evenodd\" \/>\n        <\/svg>\n        <span class=\"sr-only\">Step 2<\/span>\n      <\/a>\n    <\/li>\n    <li class=\"relative pr-8 sm:pr-20\">\n      <!-- Current Step -->\n      <div class=\"absolute inset-0 flex items-center\" aria-hidden=\"true\">\n        <div class=\"h-0.5 w-full bg-gray-200\"><\/div>\n      <\/div>\n      <a href=\"#\" class=\"relative flex h-8 w-8 items-center justify-center rounded-full border-2 border-indigo-600 bg-white\" aria-current=\"step\">\n        <span class=\"h-2.5 w-2.5 rounded-full bg-indigo-600\" aria-hidden=\"true\"><\/span>\n        <span class=\"sr-only\">Step 3<\/span>\n      <\/a>\n    <\/li>\n    <li class=\"relative pr-8 sm:pr-20\">\n      <!-- Upcoming Step -->\n      <div class=\"absolute inset-0 flex items-center\" aria-hidden=\"true\">\n        <div class=\"h-0.5 w-full bg-gray-200\"><\/div>\n      <\/div>\n      <a href=\"#\" class=\"group relative flex h-8 w-8 items-center justify-center rounded-full border-2 border-gray-300 bg-white hover:border-gray-400\">\n        <span class=\"h-2.5 w-2.5 rounded-full bg-transparent group-hover:bg-gray-300\" aria-hidden=\"true\"><\/span>\n        <span class=\"sr-only\">Step 4<\/span>\n      <\/a>\n    <\/li>\n    <li class=\"relative\">\n      <!-- Upcoming Step -->\n      <div class=\"absolute inset-0 flex items-center\" aria-hidden=\"true\">\n        <div class=\"h-0.5 w-full bg-gray-200\"><\/div>\n      <\/div>\n      <a href=\"#\" class=\"group relative flex h-8 w-8 items-center justify-center rounded-full border-2 border-gray-300 bg-white hover:border-gray-400\">\n        <span class=\"h-2.5 w-2.5 rounded-full bg-transparent group-hover:bg-gray-300\" aria-hidden=\"true\"><\/span>\n        <span class=\"sr-only\">Step 5<\/span>\n      <\/a>\n    <\/li>\n  <\/ol>\n<\/nav>",
+        "page": "ablauf",
+        "heading_size": "h1",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -124,6 +125,6 @@
     "365f4b16-d9e4-41c0-85e7-55c4102e8723",
     "130cd684-c17b-4f05-8801-63c0df369525",
     "6be22b51-ad33-4673-b0b5-845099a89dfc",
-    "a6880954-9083-41c2-acfa-864943d4323c"
+    "872de92b-a180-4105-ab8b-ce4d47fd3186"
   ]
 }
