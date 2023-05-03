@@ -44,10 +44,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "7e2642f9-e976-4ac9-b057-32b6e7557d14": {
+      "type": "ablauf",
+      "settings": {
+      }
     }
   },
   "order": [
     "130cd684-c17b-4f05-8801-63c0df369525",
-    "0ac827f9-4376-40d6-99b0-ace21873e8b3"
+    "0ac827f9-4376-40d6-99b0-ace21873e8b3",
+    "7e2642f9-e976-4ac9-b057-32b6e7557d14"
   ]
 }
