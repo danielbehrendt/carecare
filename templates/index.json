@@ -42,6 +42,7 @@
     },
     "0ac827f9-4376-40d6-99b0-ace21873e8b3": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "new-page-1412",
         "heading_size": "h1",
